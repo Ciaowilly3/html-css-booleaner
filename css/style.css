@@ -1,0 +1,39 @@
+/* annulo i margini della pagina */
+body{
+    margin: 0px;
+}
+
+/* setto il background del banner e sistemo il logo */
+header > section{
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat-x;
+    background-color: cornflowerblue;
+    height: 180px;
+    margin: 0px;
+}
+.logo{
+    width: 20%;
+    margin-top: 5%;
+}
+
+/* sistemo lo stile per titolo e sottotitolo */
+
+h1{
+    font-size: 3.5em;
+    margin-left: 8px;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+.subtitle{
+    color: gray;
+    font-size: 1.5em;
+    margin-left: 8px;;
+    font-weight: bold;
+}
+div > span{
+    color: rgb(40, 169, 221);
+}
+.data{
+    color: gray;
+    margin-left: 8px;
+}
